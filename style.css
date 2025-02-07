@@ -1,0 +1,136 @@
+body {
+    font-family: sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 20px;
+}
+
+/* Стиль для заголовка */
+header {
+    background-color: rgb(255, 183, 0);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+header img {
+    width: 100px;
+    height: 120px;
+}
+
+/* Стиль для навігаційного меню */
+nav {
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Основний контейнер для контенту */
+.container {
+    padding: 20px;
+    margin: 0 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(255, 183, 0);
+    border-radius: 8px;
+    margin-bottom: 20px;
+   
+    
+}
+
+article:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 12px red (255, 183, 0);
+}
+
+.container div{
+    display: flex;
+}
+.container div img {
+    max-width: 500px;
+    height: max-content;
+   
+    
+}
+.container p {
+    margin: 8px;
+    font-size: 24px;
+    
+}
+iframe{
+    margin: 8px;
+   
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Стиль для списку особливостей */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+li:hover{
+    font-size: 20px;
+    background-color: #cecdcd;
+}
+
+/* Стиль для кнопки завантаження */
+a {
+    display: inline-block;
+    background-color: rgb(255, 183, 0);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+    width: 200px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+
+/* Підвал сайту */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
